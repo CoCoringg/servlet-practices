@@ -15,9 +15,6 @@ import com.douzone.emaillist.vo.EmaillistVo;
 public class EmaillistServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	public EmaillistServlet() {
-    }
-
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		request.setCharacterEncoding("utf-8");
 		
